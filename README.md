@@ -16,11 +16,11 @@ Out[6]: 'Mechanical Engineer with 5 years of industry experience and 10+ years o
          in backend development with Django.'
 
 In [5]: me.projects
-Out[5]: ['`PVForge` | Python, Telegram Bot | Backend-focused web application (In Progress)',
-         '`AutoCAD SaaS Plugin` — Commercial plugin developed with C#/.NET',
-         '`BrewByte` - Cafe Ordering System (Team Project - In Progress) | Django, PostgreSQL',
-         '`Document Search MVP` — Semantic document search application',
-         '`Python Engineering Tools` — Automation and simulation scripts for engineering workflows']
+Out[5]: ['PVForge | Python, Telegram Bot | Backend-focused web application (In Progress)',
+         'AutoCAD SaaS Plugin — Commercial plugin developed with C#/.NET',
+         'BrewByte - Cafe Ordering System (Team Project - In Progress) | Django, PostgreSQL',
+         'Document Search MVP — Semantic document search application',
+         'Python Engineering Tools — Automation and simulation scripts for engineering workflows']
 
 In [5]: me.currently
 Out[5]: ['Deepening my understanding in backend development',
