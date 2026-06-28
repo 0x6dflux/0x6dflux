@@ -1,6 +1,5 @@
 # Mahdi Mohammadi
 
-```python
 Python 3.14.6 (main, Jun 28 2026)
 
 In [1]: from github import User
@@ -45,4 +44,3 @@ PermissionError: Please contact { Mahdi }:
 * LinkedIn  ❯❯❯  https://www.linkedin.com/in/mahdi-mohammadi-34b6221a5/
 * Email     ❯❯❯  mohammadi
 * Portfolio ❯❯❯  (coming soon)
-```
