@@ -1,35 +1,30 @@
+#Mahdi Mohammadi
+
+---
+
 ## Readme
+
 ```python
 Python 3.14.6 (main, Jun 28 2026)
 
-In [1]: from github import user
+In [1]: from github import User
 
-In [2]: me = user("0x6dflux")
+In [2]: me = User("0x6dflux")
 
 In [3]: me
+Out[3]: <__github__.User at 0x6dflux>
 
-Out[3]:
-BackendDeveloper(
-    name='Mahdi Mohammadi',
-    background='Mechanical Engineer',
-    editor='Neovim',
-    distro='Fedora Linux',
-)
+In [4]: print(me)
+Out[4]: 'Please continue reading '
 
-In [4]: me.currently
+In [5]: me.currently
+Out[5]: 'Building backend systems and softwares as services (SaaS).'
 
-Out[4]:
-'Building backend systems and debugging life on Linux.'
+In [6]: me.future()
+Out[6]: 'Building products that people actually use.'
 
-In [5]: me.future()
-
-Out[5]:
-'Building products that people actually use.'
-
-In [6]: me.exit()
-
-Out[6]:
-PermissionDenied
+In [7]: me.exit()
+Out[7]: PermissionDenied
 ```
 
 ---
