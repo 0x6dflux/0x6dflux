@@ -1,57 +1,75 @@
 # Mahdi Mohammadi
 
-```Python
+### Backend Developer | Python • Django • C#/.NET • PostgreSQL
+
+```python
 Python 3.14.6 (main, Jun 28 2026)
 
-In [0]: from github import User
+In [1]: from github import User
 
-In [1]: (me := User("0x6dflux"))
-Out[1]: <github.User object at 0x6dflux>
+In [2]: (me := User("0x6dflux"))
+Out[2]: <github.User object at 0x6dflux>
 
-In [2]: me.about
-Out[2]: 'Mechanical Engineer with 5 years of industry experience and 10+ years of self-taught
-         programming experience. Built production software including a SaaS AutoCAD plugin in
-         C#/.NET, Python-based simulation scripts, and an MVP document search application.
-         Currently transitioning into backend development while leveraging a strong foundation
-         in software engineering and analytical problem-solving.'
+In [3]: me.about
+Out[3]: """
+         Mechanical Engineer with 5 years of industry experience and 10+ years of self-taught
+         programming experience. Developed production-ready software including a commercial
+         AutoCAD SaaS plugin in C#/.NET, Python simulation tools, and an MVP document search
+         application. Focused on backend development, leveraging a strong foundation in software
+         engineering and analytical problem-solving.
+"""
 
-In [3]: me.projects
-Out[3]: ['PVForge | Python, Telegram Bot | Backend-focused web application (In Progress)',
-         'AutoCAD SaaS Plugin | C#/.NET | Commercial AutoCAD plugin',
+In [4]: me.projects
+Out[4]: [
          'BrewByte | Django, PostgreSQL | Cafe Ordering System (Team Project - In Progress)',
+         'PVForge | Python, Telegram Bot | Backend-focused web application (In Progress)',
+         'AutoCAD SaaS Plugin | C#/.NET | Commercial AutoCAD plugin',
          'Document Search MVP | Python | Semantic document search application',
-         'Engineering Tools | Python | Automation and simulation scripts for engineering workflows']
+         'Python Engineering Tools | Python | Engineering automation and simulation',
+]
 
-In [4]: me.interests
-Out[4]: ['Backend Engineering',
+In [5]: me.interests
+Out[5]: [
+         'Backend Engineering',
+         'System Design',
          'Linux',
          'Automation',
-         'System Design']
+]
 
-In [5]: me.currently
-Out[5]: ['Looking for open-source opportunities to contribute',
-         'Deepening my understanding of backend development',
+In [6]: me.currently
+Out[6]: [
          'Building production-ready backend systems',
-         'Building Software-as-a-Service (SaaS) applications',
+         'Building SaaS applications',
          'Learning scalable backend architecture and system design',
-         'Exploring Linux and developer tooling']
+         'Deepening my understanding of backend development',
+         'Exploring Linux and developer tooling',
+         'Looking for opportunities to contribute to open source',
+]
+         
 
-In [6]: me.background
-Out[6]: 'Started as a Mechanical Engineer and gradually transitioned into software development.
+In [7]: me.background
+Out[7]: """
+         Started as a Mechanical Engineer and gradually transitioned into software development.
          My engineering background influences how I approach problem-solving, system design,
-         and writing maintainable software.'
+         and writing maintainable software.
+"""
 
-In [7]: me.philosophy
-Out[7]: 'I believe good software should be simple, maintainable, and built with purpose.'
+In [8]: me.philosophy
+Out[8]: 'I strive to build software that is simple, maintainable, and solves real problems.'
 
-In [8]: me.future
-Out[8]: 'Building products that people actually use.'
+In [9]: me.future
+Out[9]: 'Building products that people actually use.'
 
-In [9]: me.exit()
+In [10]: me.exit()
 PermissionError: cannot exit without saying hello.
 
-Contact:
-* LinkedIn  ❯❯❯  https://www.linkedin.com/in/mahdi-mohammadi-34b6221a5/
-* Email     ❯❯❯  mohammadi
-* Portfolio ❯❯❯  (coming soon)
+In [11]: me.contact()
+Out[11]: {
+         "LinkedIn": "https://www.linkedin.com/in/mahdi-mohammadi-34b6221a5/",
+         "Email": "...",
+         "Portfolio": "Coming soon"
+}
+
+In [12]: me.available
+Out[12]: True
 ```
