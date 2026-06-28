@@ -29,7 +29,7 @@ Out[4]: ['Backend Engineering',
          'System Design']
 
 In [5]: me.currently
-Out[5]: ['Looking for opportunities to contribute',
+Out[5]: ['Looking for open-source opportunities to contribute',
          'Deepening my understanding of backend development',
          'Building production-ready backend systems',
          'Building Software-as-a-Service (SaaS) applications',
