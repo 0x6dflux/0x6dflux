@@ -1,7 +1,7 @@
 # Mahdi Mohammadi
 
 ```Python
-Python 3.14.6 (main, Jun 28 2026)
+Python 3.14.6 (github, Jun 28 2026)
 
 In [1]: from github import User
 
