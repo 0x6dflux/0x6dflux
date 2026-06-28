@@ -1,6 +1,7 @@
-# Python 3.14.6 (main, Jun 28 2026)
-
+## Readme
 ```python
+Python 3.14.6 (main, Jun 28 2026)
+
 In [1]: from github import user
 
 In [2]: me = user("0x6dflux")
