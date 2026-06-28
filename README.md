@@ -1,7 +1,5 @@
 # Mahdi Mohammadi
 
----
-
 ## Readme
 
 ```python
